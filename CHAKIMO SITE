@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chama Cha Kiswahili Moi (CHAKIMO)</title>
+    <style>
+        /* Background Color */
+        body {
+            background-color: #32CD32; /* Green background */
+            color: white; /* White text color */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: white; /* White header */
+            color: black; /* Black text for header */
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            color: black; /* Black text for links */
+            text-decoration: none;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+            border-radius: 5px;
+            background-color: white; /* White sections */
+            color: black; /* Black text for sections */
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: white; /* White footer */
+            color: black;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Chama Cha Kiswahili Moi (CHAKIMO)</h1>
+        <nav>
+            <ul>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#announcements">Announcements</a></li>
+                <li><a href="#live">Live Streaming</a></li>
+                <li><a href="#library">Creative Library</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <p>Meeting photos and videos will be displayed here.</p>
+    </section>
+    
+    <section id="announcements">
+        <h2>Announcements</h2>
+        <p>Important updates from the association.</p>
+    </section>
+    
+    <section id="live">
+        <h2>Live Streaming</h2>
+        <p>Live sessions will be available here during scheduled times.</p>
+    </section>
+    
+    <section id="library">
+        <h2>Creative Library</h2>
+        <p>A collection of creative writings from members.</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Chama Cha Kiswahili Moi (CHAKIMO). All rights reserved.</p>
+    </footer>
+</body>
+</html>
